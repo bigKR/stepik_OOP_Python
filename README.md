@@ -1,1 +1,1 @@
-# stepik_OOP
+# stepik_OOP_Python
