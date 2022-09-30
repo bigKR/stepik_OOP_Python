@@ -62,7 +62,7 @@ dict_words = [Morph('связь', 'связи', 'связью', 'связей', 
               Morph('день', 'дня', 'дню', 'днем', 'дне', 'дни', 'дням', 'днями', 'днях')
               ]
 
-text = input()  # эту строчку не менять 
+text = input()  # эту строчку не менять
 text = [i.strip("-?!:;,.") for i in text.split() if len(i)]
 print(sum(w == obj for w in text for obj in dict_words))
 
